@@ -5,6 +5,8 @@ use yii\widgets\InputWidget;
 use yii\bootstrap\Html;
 
 class SlugWidget extends InputWidget {
+    
+    public $title = '';
 
     public function run() {
 
