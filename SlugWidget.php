@@ -3,11 +3,8 @@
 namespace heggi\slugwidget;
 use yii\widgets\InputWidget;
 use yii\bootstrap\Html;
-use backend\assets\SpeakingUrlAsset;
 
 class SlugWidget extends InputWidget {
-
-    public $title = '';
 
     public function run() {
 
